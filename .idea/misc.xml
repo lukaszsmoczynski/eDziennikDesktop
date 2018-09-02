@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.Classes mAppointmentForContextMenu" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.Classes agendaClasses" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Dictionary incDictionaryController" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Dictionary gridMain" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Groups cbParentGroup" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Groups cbCreationYear" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Groups edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Groups btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Groups btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login imgWarningPassword" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login imgWarningLogin" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login btnExit" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login btnLogin" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login edtPassword" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Login edtLogin" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Main tabCenter" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Main accMenu" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Main btnTest" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Modules btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Modules btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass edtEndDate" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass edtBeginDate" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass cbTeacher" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass tpEndTime" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass btnClear" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass cbSubject" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass cbDayOfOccurence" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass tpStartTime" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Classes.NewClass cbGroups" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Subjects edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Subjects btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Subjects btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Enums.UserType PARENT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Enums.UserType ADMIN" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Enums.UserType NONE" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users chbAdmin" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users chbStudent" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users chbTeacher" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users chbParent" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users edtSurname" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users edtName" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users edtPassword" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users edtLogin" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users btnCancel" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.Dictionaries.Users btnSave" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveUser.Parameters DATE_OF_BIRTH" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveUser.Parameters HIRE_DATE" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.IssueNote.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveAttendance.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result.Students SURNAME" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result.Students NAME" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result.Students ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result STUDENTS" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.EndClass.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.StartClass.Result CLASS_INSTANCE_ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.StartClass.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule.Classes INSTANCE_ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule.Classes PRESENT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule.Classes TEACHER" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule.Classes CLASS_ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.DeleteNote.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes NOTE_ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes REASON" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes DATE_OF_OCCURENCE" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes GIVER" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes NOTE_VALUE" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes NOTES" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes CLASS_NAME" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result STUDENT_NOTES" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result RESULT" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result.Children CHILDREN_SURNAME" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result.Children CHILDREN_NAME" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result.Children CHILDREN_ID" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result CHILDREN" />
+      <entry_point TYPE="field" FQNAME="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result RESULT" />
+    </entry_points>
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Class" method="Class" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Class" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.ClassInProgress" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes.ClassStartedListener" method="OnClassStarted" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes.ClassStartedListener" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes" method="onBtnTodayAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes" method="onBtnNextWeekAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes" method="onBtnPrevWeekAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.Classes" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Dictionary" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes.DocumentType" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes.DocumentType" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes.DocumentType" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment.FormOfEmployment" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment.FormOfEmployment" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment.FormOfEmployment" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.FormsOfEmployment" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Functions" method="SaveLog" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Functions" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Group" method="creationYearProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Group" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Group" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Group" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Groups" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Groups" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Groups" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" method="onEdtPasswordKeyPressed" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" method="onEdtLoginKeyPressed" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" method="btnLoginClicked" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" method="btnExitClicked" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" method="start" />
+    <pattern value="com.hiero.elektronicznydziennik.Login" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnNewClassesAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnClassesAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnModulesAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnGroupsAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnSubjectsAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnRelationTypesAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnDocumentTypesAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnFormsOfEmploymentAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnUsersAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnExitAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnLogoutAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnTest1Click" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="onBtnTestClick" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" method="start" />
+    <pattern value="com.hiero.elektronicznydziennik.Main" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules.Module" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules.Module" method="getId" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules.Module" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules.Module" method="getName" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules.Module" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Modules" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="IssueNote" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="SaveAttendance" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="GetStudentsOfClassInstance" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="EndClass" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="StartClass" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="DeleteNote" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="GetStudentNotes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="GetChildrenOfParent" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" method="Logout" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.MySQLWebService" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.NewClass" method="onEdtEndDateAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.NewClass" method="onEdtBeginDateAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.NewClass" method="onBtnClearAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.NewClass" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Classes.NewClass" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" method="setNoteReasons" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" method="addNoteReasons" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" method="getIsAdmin" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" method="getIsParent" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" method="getUserName" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes.RelationType" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes.RelationType" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes.RelationType" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Student" method="getSurname" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Student" method="getName" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Student" method="Student" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Student" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Subject" method="nameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Subject" method="idProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.Subject" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Subjects" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Subjects" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Subjects" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="adminProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="studentProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="teacherProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="parentProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="passwordProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="lastNameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="firstNameProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="LoginProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" method="IdProperty" />
+    <pattern value="com.hiero.elektronicznydziennik.Helpers.Classes.User" />
+    <pattern value="com.hiero.elektronicznydziennik.Enums.UserType" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Users" method="onBtnCancelAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Users" method="onBtnSaveAction" />
+    <pattern value="com.hiero.elektronicznydziennik.Dictionaries.Users" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetRelationTypes.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetRelationTypes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSubjects.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSubjects" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetFormsOfEmployment.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetFormsOfEmployment" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetDocumentTypes.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetDocumentTypes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetGroups.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetGroups" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetModules.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetModules" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveUser.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveUser" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetUsers.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetUsers" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.IssueNote.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.IssueNote" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveAttendance.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.SaveAttendance" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result.Students" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentsOfClassInstance" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.EndClass.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.EndClass" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.StartClass.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.StartClass" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule.Classes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result.Schedule" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetSchedule" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.DeleteNote.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.DeleteNote" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes.Notes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result.StudentNotes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetStudentNotes" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result.Children" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent.Result" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.GetChildrenOfParent" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.Logout.Parameters" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants.Logout" />
+    <pattern value="com.hiero.elektronicznydziennik.WebService.WebServiceConstants" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectKey">
+    <option name="state" value="project://e79810c8-c5c8-43b1-b19c-90c1f4095425" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

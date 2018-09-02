@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.hiero.elektronicznydziennik.Dictionaries.Users.Parents">
+    <center>
+        <fx:include fx:id="incDictionary" source="../dictionary.fxml">
+        </fx:include>
+    </center>
+    <right>
+        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <bottom>
+                <AnchorPane BorderPane.alignment="CENTER">
+                    <Button fx:id="btnSave" mnemonicParsing="false" onAction="#onBtnSaveAction" prefWidth="100.0"
+                            style="-fx-background-color: green;" text="Zapisz" AnchorPane.bottomAnchor="0.0"
+                            AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+                    <Button fx:id="btnCancel" layoutX="148.0" mnemonicParsing="false" onAction="#onBtnCancelAction"
+                            prefWidth="100.0" style="-fx-background-color: red;" text="Anuluj"
+                            AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+                </AnchorPane>
+            </bottom>
+            <center>
+                <ScrollPane hbarPolicy="NEVER">
+                    <VBox prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
+                        <BorderPane.margin>
+                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                        </BorderPane.margin>
+                        <Label layoutX="10.0" layoutY="114.0" text="Kraj"/>
+                        <TextField fx:id="edtCountry" layoutX="10.0" layoutY="136.0"/>
+                        <Label layoutX="10.0" layoutY="166.0" text="Miasto"/>
+                        <TextField fx:id="edtCity" layoutX="10.0" layoutY="188.0"/>
+                        <Label layoutX="10.0" layoutY="218.0" text="Województwo"/>
+                        <TextField fx:id="edtRegion" layoutX="10.0" layoutY="240.0"/>
+                        <Label layoutX="10.0" layoutY="270.0" text="Ulica"/>
+                        <TextField fx:id="edtStreet" layoutX="10.0" layoutY="292.0"/>
+                        <Label layoutX="10.0" layoutY="322.0" text="Numer domu"/>
+                        <TextField fx:id="edtHouseNumber" layoutX="10.0" layoutY="344.0"/>
+                        <Label layoutX="10.0" layoutY="374.0" text="Numer lokalu"/>
+                        <TextField fx:id="edtFlatNumber" layoutX="10.0" layoutY="396.0"/>
+                        <Label layoutX="10.0" layoutY="582.0" text="Kod pocztowy"/>
+                        <TextField fx:id="edtPostalCode" layoutX="10.0" layoutY="604.0"/>
+                        <Label layoutX="10.0" layoutY="582.0" text="Adres e-mail"/>
+                        <TextField fx:id="edtEMail" layoutX="10.0" layoutY="604.0"/>
+                        <TextArea fx:id="mmoPhones" prefHeight="76.0" prefWidth="200.0"/>
+                    </VBox>
+                </ScrollPane>
+            </center>
+        </BorderPane>
+    </right>
+</BorderPane>

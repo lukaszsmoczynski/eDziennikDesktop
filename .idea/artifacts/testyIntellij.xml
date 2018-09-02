@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="testyIntellij">
+    <output-path>$PROJECT_DIR$/out/artifacts/testyIntellij</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.hiero.elektronicznydziennik.Login" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="testyIntellij.jar">
+        <element id="module-output" name="testyIntellij" />
+      </element>
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.1" />
+      <element id="library" level="project" name="Maven: org.json:json:20180130" />
+    </root>
+  </artifact>
+</component>
