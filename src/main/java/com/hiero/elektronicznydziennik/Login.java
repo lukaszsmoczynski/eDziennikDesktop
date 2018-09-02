@@ -1,6 +1,6 @@
 package com.hiero.elektronicznydziennik;
 
-import coam.hiero.elektronicznydziennik.Enums.UserType;
+import com.hiero.elektronicznydziennik.Enums.UserType;
 import com.hiero.elektronicznydziennik.Helpers.Functions;
 import com.hiero.elektronicznydziennik.Helpers.SharedPreferences.PreferencesHelper;
 import com.hiero.elektronicznydziennik.WebService.MySQLWebService;
