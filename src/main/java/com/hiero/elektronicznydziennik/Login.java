@@ -28,7 +28,7 @@ import java.util.ResourceBundle;
 import java.util.function.UnaryOperator;
 
 public class Login extends Application implements Initializable {
-    private static final UserType AUTO_LOGIN_AS = UserType.TEACHER;
+    private static final UserType AUTO_LOGIN_AS = UserType.PARENT;
 
     public TextField edtLogin;
     public PasswordField edtPassword;
