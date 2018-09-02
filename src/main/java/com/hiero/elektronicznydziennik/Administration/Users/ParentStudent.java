@@ -1,4 +1,4 @@
-package com.hiero.elektronicznydziennik.Dictionaries.Administration.Users;
+package com.hiero.elektronicznydziennik.Administration.Users;
 
 import com.hiero.elektronicznydziennik.Helpers.Classes.Users.Parent;
 import com.hiero.elektronicznydziennik.Helpers.Controller;

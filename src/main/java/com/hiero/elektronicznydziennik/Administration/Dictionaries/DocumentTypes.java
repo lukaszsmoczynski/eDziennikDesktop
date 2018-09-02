@@ -1,12 +1,10 @@
-package com.hiero.elektronicznydziennik.Dictionaries;
+package com.hiero.elektronicznydziennik.Administration.Dictionaries;
 
 import com.hiero.elektronicznydziennik.Helpers.Classes.DocumentType;
 import com.hiero.elektronicznydziennik.Helpers.Functions;
 import com.hiero.elektronicznydziennik.WebService.MySQLWebService;
 import com.hiero.elektronicznydziennik.WebService.WebServiceConstants;
 import javafx.application.Platform;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.ProgressIndicator;

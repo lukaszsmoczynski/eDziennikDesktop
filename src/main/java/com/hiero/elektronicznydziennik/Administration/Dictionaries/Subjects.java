@@ -1,4 +1,4 @@
-package com.hiero.elektronicznydziennik.Dictionaries;
+package com.hiero.elektronicznydziennik.Administration.Dictionaries;
 
 import com.hiero.elektronicznydziennik.Helpers.Classes.Subject;
 import com.hiero.elektronicznydziennik.Helpers.Functions;

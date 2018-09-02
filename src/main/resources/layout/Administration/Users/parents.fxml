@@ -12,7 +12,7 @@
 
 <BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.hiero.elektronicznydziennik.Dictionaries.Users.Parents">
+            fx:controller="com.hiero.elektronicznydziennik.Administration.Users.Parents">
     <center>
         <fx:include fx:id="incDictionary" source="../Dictionaries/dictionary.fxml">
         </fx:include>

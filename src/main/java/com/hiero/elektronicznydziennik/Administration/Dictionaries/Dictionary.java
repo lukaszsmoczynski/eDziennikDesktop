@@ -1,10 +1,9 @@
-package com.hiero.elektronicznydziennik.Dictionaries;
+package com.hiero.elektronicznydziennik.Administration.Dictionaries;
 
 import com.hiero.elektronicznydziennik.Helpers.Controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Control;
 import javafx.scene.control.TableView;
 
 import java.net.URL;

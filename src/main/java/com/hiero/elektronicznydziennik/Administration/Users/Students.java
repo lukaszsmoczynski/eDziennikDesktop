@@ -1,6 +1,6 @@
-package com.hiero.elektronicznydziennik.Dictionaries.Users;
+package com.hiero.elektronicznydziennik.Administration.Users;
 
-import com.hiero.elektronicznydziennik.Dictionaries.Dictionary;
+import com.hiero.elektronicznydziennik.Administration.Dictionaries.Dictionary;
 import com.hiero.elektronicznydziennik.Helpers.Classes.DocumentType;
 import com.hiero.elektronicznydziennik.Helpers.Classes.Users.Student;
 import com.hiero.elektronicznydziennik.Helpers.ColumnFormatter;
