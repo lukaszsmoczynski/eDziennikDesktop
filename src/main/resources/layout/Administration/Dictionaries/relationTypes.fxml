@@ -9,6 +9,7 @@
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="com.hiero.elektronicznydziennik.Dictionaries.RelationTypes">
     <center>
+        <!--suppress JavaFxUnresolvedFxIdReference -->
         <fx:include fx:id="incDictionary" source="dictionary.fxml">
         </fx:include>
     </center>

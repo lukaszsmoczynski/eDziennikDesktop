@@ -8,8 +8,9 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Dictionaries.Subjects">
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Dictionaries.DocumentTypes">
     <center>
+        <!--suppress JavaFxUnresolvedFxIdReference -->
         <fx:include fx:id="incDictionary" source="dictionary.fxml">
         </fx:include>
     </center>

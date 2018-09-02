@@ -73,7 +73,7 @@ public class Main extends Application implements Initializable, Classes.ClassSta
             Node node = fxmlLoader.load(getClass().getResource(fxml).openStream());
 
             if (fxmlLoader.getController() instanceof ControllerInterface) {
-                ControllerInterface controllerInterface = fxmlLoader.getController();
+                ControllerInterface<Main> controllerInterface = fxmlLoader.getController();
                 controllerInterface.Attach(this);
             }
 
@@ -115,47 +115,47 @@ public class Main extends Application implements Initializable, Classes.ClassSta
     }
 
     public void onBtnUsersAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/Users/users.fxml", "Użytkownicy");
+        CreateTab("/layout/Administration/Users/users.fxml", "Użytkownicy");
     }
 
     public void onBtnStudentsAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/Users/students.fxml", "Uczniowie");
+        CreateTab("/layout/Administration/Users/students.fxml", "Uczniowie");
     }
 
     public void onBtnParentsAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/Users/parents.fxml", "Rodzice");
+        CreateTab("/layout/Administration/Users/parents.fxml", "Rodzice");
     }
 
     public void onBtnTeachersAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/Users/teachers.fxml", "Nauczyciele");
+        CreateTab("/layout/Administration/Users/teachers.fxml", "Nauczyciele");
     }
 
     public void onBtnAdminsAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/Users/admins.fxml", "Administratorzy");
+        CreateTab("/layout/Administration/Users/admins.fxml", "Administratorzy");
     }
 
     public void onBtnFormsOfEmploymentAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/formsOfEmployment.fxml", "Rodzaje zatrudnienia");
+        CreateTab("/layout/Administration/Dictionaries/formsOfEmployment.fxml", "Rodzaje zatrudnienia");
     }
 
     public void onBtnDocumentTypesAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/documentTypes.fxml", "Rodzaje dokumentów");
+        CreateTab("/layout/Administration/Dictionaries/documentTypes.fxml", "Rodzaje dokumentów");
     }
 
     public void onBtnRelationTypesAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/relationTypes.fxml", "Relacje opiekun-uczeń");
+        CreateTab("/layout/Administration/Dictionaries/relationTypes.fxml", "Relacje opiekun-uczeń");
     }
 
     public void onBtnSubjectsAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/subjects.fxml", "Przedmioty");
+        CreateTab("/layout/Administration/Dictionaries/subjects.fxml", "Przedmioty");
     }
 
     public void onBtnGroupsAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/groups.fxml", "Grupy zajęciowe");
+        CreateTab("/layout/Administration/Dictionaries/groups.fxml", "Grupy zajęciowe");
     }
 
     public void onBtnModulesAction(ActionEvent actionEvent) {
-        CreateTab("/layout/Dictionaries/modules.fxml", "Moduły");
+        CreateTab("/layout/Administration/Dictionaries/modules.fxml", "Moduły");
     }
 
     public void onBtnClassesAction() {
@@ -173,7 +173,7 @@ public class Main extends Application implements Initializable, Classes.ClassSta
             fxmlLoader.setLocation(getClass().getResource("/layout/Classes/classInProgress.fxml"));
             Node node = fxmlLoader.load(getClass().getResource("/layout/Classes/classInProgress.fxml").openStream());
             if (fxmlLoader.getController() instanceof ControllerInterface) {
-                ControllerInterface controllerInterface = fxmlLoader.getController();
+                ControllerInterface<Main> controllerInterface = fxmlLoader.getController();
                 controllerInterface.Attach(this);
 
                 if (controllerInterface instanceof ClassInProgress) {
@@ -191,9 +191,9 @@ public class Main extends Application implements Initializable, Classes.ClassSta
 
     @Override
     public void OnClassEnded(Class pClass) {
-        for (Node node : pnlClassesInProgress.getChildren()) {
-
-        }
+//        for (Node node : pnlClassesInProgress.getChildren()) {
+//
+//        }
     }
 
     @Override

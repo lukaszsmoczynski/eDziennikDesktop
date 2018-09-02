@@ -6,23 +6,26 @@
 <?import javafx.scene.layout.HBox?>
 <?import jfxtras.scene.control.agenda.Agenda?>
 
-<BorderPane fx:id="p" prefHeight="328.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Classes.Classes">
+<BorderPane prefHeight="328.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Classes.Classes">
     <center>
-        <Agenda fx:id="agendaClasses" allowDragging="false" allowResize="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+        <Agenda fx:id="agendaClasses" allowDragging="false" allowResize="false" prefHeight="200.0" prefWidth="200.0"
+                BorderPane.alignment="CENTER"/>
     </center>
-   <top>
-      <HBox prefHeight="37.0" prefWidth="559.0" spacing="5.0" BorderPane.alignment="CENTER">
-         <children>
-            <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnPrevWeekAction" text="Poprzedni tydzień" />
-            <Button fx:id="btnToday" layoutX="15.0" layoutY="15.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnTodayAction" text="Dziś" />
-            <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnNextWeekAction" text="Następny tydzień" textAlignment="JUSTIFY" />
-         </children>
-         <BorderPane.margin>
-            <Insets />
-         </BorderPane.margin>
-         <padding>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </padding>
-      </HBox>
-   </top>
+    <top>
+        <HBox prefHeight="37.0" prefWidth="559.0" spacing="5.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets/>
+            </BorderPane.margin>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+            <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnPrevWeekAction"
+                    text="Poprzedni tydzień"/>
+            <Button layoutX="15.0" layoutY="15.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false"
+                    onAction="#onBtnTodayAction" text="Dziś"/>
+            <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnNextWeekAction"
+                    text="Następny tydzień" textAlignment="JUSTIFY"/>
+        </HBox>
+    </top>
 </BorderPane>

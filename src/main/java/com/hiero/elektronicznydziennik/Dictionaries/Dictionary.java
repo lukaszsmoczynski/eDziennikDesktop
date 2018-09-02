@@ -19,7 +19,10 @@ public class Dictionary extends Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         if (incDictionaryController != null) {
+            //noinspection unchecked
             incDictionaryController.gridMain.setItems(data);
         }
+
+        NotifyAll();
     }
 }

@@ -8,7 +8,7 @@
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="com.hiero.elektronicznydziennik.Dictionaries.Users.Teachers">
     <center>
-        <fx:include fx:id="incDictionary" source="../dictionary.fxml">
+        <fx:include fx:id="incDictionary" source="../Dictionaries/dictionary.fxml">
         </fx:include>
     </center>
     <right>
