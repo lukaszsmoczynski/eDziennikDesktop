@@ -107,23 +107,21 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="330771879">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/layout/main.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -197,7 +195,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eDziennik" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -275,10 +273,31 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eDziennikDesktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="eDziennikDesktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
+              <item name="com.hiero.elektronicznydziennik" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="eDziennikDesktop" type="58d84e3e:PackageViewProjectNode" />
+              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
+              <item name="layout" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -307,23 +326,11 @@
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="testyIntellij" type="58d84e3e:PackageViewProjectNode" />
-              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="58d84e3e:PackageViewProjectNode" />
-              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
-              <item name="main.java.com.hiero.elektronicznydziennik" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="58d84e3e:PackageViewProjectNode" />
-              <item name="testyIntellij" type="616d4139:PackageViewModuleNode" />
-              <item name="res" type="1f31426a:PackageElementNode" />
+              <item name="eDziennikDesktop" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="testyIntellij" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -344,115 +351,49 @@
         <subPane>
           <expand>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
-              <item name="Enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="elektronicznydziennik" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
+              <item name="eDziennikDesktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eDziennikDesktop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testyIntellij" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testyIntellij" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -645,9 +586,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,7 +610,6 @@
       <window_info anchor="bottom" id="Changes" order="13" />
       <window_info anchor="bottom" id="Problems" order="14" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.329718" />
-      <window_info anchor="right" id="Preview" weight="0.32995737" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32942432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -683,6 +622,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Preview" order="12" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20895523" />
@@ -1148,10 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
           <caret line="526" column="9" selection-start-line="526" selection-start-column="9" selection-end-line="526" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ApplyTestCerificate#0;class#MySQLWebService#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,9 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,7 +1105,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/layout/main.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="918">
           <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
         </state>
       </provider>
