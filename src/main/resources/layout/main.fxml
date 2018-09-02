@@ -11,26 +11,23 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane fx:id="pnlMain" stylesheets="@../stylesheets/buttons.css" xmlns="http://javafx.com/javafx/8.0.121"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Main">
+<BorderPane fx:id="pnlMain" stylesheets="@../stylesheets/buttons.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hiero.elektronicznydziennik.Main">
     <left>
         <HBox BorderPane.alignment="CENTER">
             <VBox alignment="BOTTOM_CENTER" prefHeight="256.0" prefWidth="41.0" spacing="2.0">
                 <padding>
-                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
                 </padding>
-                <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnLogoutAction"
-                        style="-fx-background-image: url(&quot;/icons/ic_logout.png&quot;);">
+                <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnLogoutAction" style="-fx-background-image: url(&quot;/icons/ic_logout.png&quot;);">
                     <styleClass>
-                        <String fx:value="imageButton"/>
-                        <String fx:value="backgroundCenter"/>
+                        <String fx:value="imageButton" />
+                        <String fx:value="backgroundCenter" />
                     </styleClass>
                 </Button>
-                <Button layoutX="10.0" layoutY="241.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
-                        onAction="#onBtnExitAction" style="-fx-background-image: url(&quot;/icons/ic_exit.png&quot;);">
+                <Button layoutX="10.0" layoutY="241.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnExitAction" style="-fx-background-image: url(&quot;/icons/ic_exit.png&quot;);">
                     <styleClass>
-                        <String fx:value="imageButton"/>
-                        <String fx:value="backgroundCenter"/>
+                        <String fx:value="imageButton" />
+                        <String fx:value="backgroundCenter" />
                     </styleClass>
                 </Button>
             </VBox>
@@ -39,23 +36,19 @@
                     <TitledPane text="Oceny">
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
                             <padding>
-                                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                             </padding>
-                            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnTestClick"
-                                    text="Przegląd ocen"/>
-                            <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                    mnemonicParsing="false" onAction="#onBtnTest1Click" text="Przegląd ocen2"/>
+                            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnTestClick" text="Przegląd ocen" />
+                            <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnTest1Click" text="Przegląd ocen2" />
                         </VBox>
                     </TitledPane>
                     <TitledPane text="Zajęcia">
                         <VBox prefHeight="200.0" prefWidth="100.0">
                             <padding>
-                                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                             </padding>
-                            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false"
-                                    onAction="#onBtnClassesAction" text="Przegląd zajęć"/>
-                            <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                    mnemonicParsing="false" onAction="#onBtnNewClassesAction" text="Nowe zajęcia"/>
+                            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnClassesAction" text="Przegląd zajęć" />
+                            <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnNewClassesAction" text="Nowe zajęcia" />
                         </VBox>
                     </TitledPane>
                     <TitledPane layoutX="10.0" layoutY="35.0" text="Administrowanie">
@@ -64,49 +57,32 @@
                                 <TitledPane prefHeight="200.0" prefWidth="200.0" text="Użytkownicy">
                                     <VBox prefHeight="200.0" prefWidth="100.0">
                                         <padding>
-                                            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                                            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                                         </padding>
-                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false"
-                                                onAction="#onBtnUsersAction" text="Użytkownicy"/>
-                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnStudentsAction"
-                                                text="Uczniowie"/>
-                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnParentsAction"
-                                                text="Rodzice"/>
-                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnTeachersAction"
-                                                text="Nauczyciele"/>
-                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnAdminsAction"
-                                                text="Administratorzy"/>
+                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnUsersAction" text="Użytkownicy" />
+                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnStudentsAction" text="Uczniowie" />
+                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnParentsAction" text="Rodzice" />
+                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnTeachersAction" text="Nauczyciele" />
+                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnAdminsAction" text="Administratorzy" />
+                              <Button layoutX="11.0" layoutY="111.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnParentsStudentsAction" text="Opiekun &lt;-&gt; uczeń" />
                                     </VBox>
                                 </TitledPane>
                                 <TitledPane text="Słowniki">
                                     <VBox prefHeight="200.0" prefWidth="100.0">
                                         <padding>
-                                            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                                            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                                         </padding>
-                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false"
-                                                onAction="#onBtnFormsOfEmploymentAction" text="Sposoby zatrudnienia"/>
-                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false"
-                                                onAction="#onBtnDocumentTypesAction" text="Typy dokumentów"/>
-                                        <Button layoutX="11.0" layoutY="61.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnRelationTypesAction"
-                                                text="Relacje opiekun-uczeń"/>
-                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnSubjectsAction"
-                                                text="Przedmioty"/>
-                                        <Button layoutX="11.0" layoutY="36.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnGroupsAction"
-                                                text="Grupy zajęciowe"/>
-                                        <Button layoutX="11.0" layoutY="61.0" maxWidth="1.7976931348623157E308"
-                                                mnemonicParsing="false" onAction="#onBtnModulesAction" text="Moduły"/>
+                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnFormsOfEmploymentAction" text="Sposoby zatrudnienia" />
+                                        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnDocumentTypesAction" text="Typy dokumentów" />
+                                        <Button layoutX="11.0" layoutY="61.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnRelationTypesAction" text="Relacje opiekun-uczeń" />
+                                        <Button layoutX="11.0" layoutY="11.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnSubjectsAction" text="Przedmioty" />
+                                        <Button layoutX="11.0" layoutY="36.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnGroupsAction" text="Grupy zajęciowe" />
+                                        <Button layoutX="11.0" layoutY="61.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onBtnModulesAction" text="Moduły" />
                                     </VBox>
                                 </TitledPane>
                             </panes>
                             <padding>
-                                <Insets left="10.0"/>
+                                <Insets left="10.0" />
                             </padding>
                         </Accordion>
                     </TitledPane>
@@ -115,18 +91,17 @@
         </HBox>
     </left>
     <center>
-        <TabPane fx:id="tabCenter" prefHeight="256.0" prefWidth="250.0" tabClosingPolicy="ALL_TABS"
-                 BorderPane.alignment="CENTER"/>
+        <TabPane fx:id="tabCenter" prefHeight="256.0" prefWidth="250.0" tabClosingPolicy="ALL_TABS" BorderPane.alignment="CENTER" />
     </center>
     <right>
         <ScrollPane fx:id="sbClassesInProgress" hbarPolicy="NEVER" BorderPane.alignment="CENTER">
             <padding>
-                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </padding>
             <BorderPane.margin>
-                <Insets/>
+                <Insets />
             </BorderPane.margin>
-            <VBox fx:id="pnlClassesInProgress" spacing="5.0"/>
+            <VBox fx:id="pnlClassesInProgress" spacing="5.0" />
         </ScrollPane>
     </right>
 </BorderPane>

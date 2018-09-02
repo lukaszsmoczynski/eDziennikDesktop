@@ -19,7 +19,7 @@ public class User {
         this.mId.set(id);
     }
 
-    public int getId() {
+    public Integer getId() {
         return mId.get();
     }
 

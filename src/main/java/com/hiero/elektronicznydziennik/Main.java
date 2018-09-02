@@ -158,6 +158,10 @@ public class Main extends Application implements Initializable, Classes.ClassSta
         CreateTab("/layout/Administration/Dictionaries/modules.fxml", "Moduły");
     }
 
+    public void onBtnParentsStudentsAction(ActionEvent actionEvent) {
+        CreateTab("/layout/Administration/Users/parentStudent.fxml", "Opiekun <-> uczeń");
+    }
+
     public void onBtnClassesAction() {
         CreateTab("/layout/Classes/classes.fxml", "Przegląd zajęć");
     }
