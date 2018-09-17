@@ -2,6 +2,7 @@ package com.hiero.elektronicznydziennik.WebService;
 
 import com.hiero.elektronicznydziennik.Enums.UserType;
 import com.hiero.elektronicznydziennik.Helpers.Classes.Class;
+import com.hiero.elektronicznydziennik.Helpers.Classes.RelationType;
 import com.hiero.elektronicznydziennik.Helpers.Classes.Users.Parent;
 import com.hiero.elektronicznydziennik.Helpers.Classes.Users.Student;
 import com.hiero.elektronicznydziennik.Helpers.Classes.Users.Teacher;
@@ -25,6 +26,7 @@ import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Map;
 
 /**
  * Created by Hiero on 08.12.2017.
@@ -462,6 +464,19 @@ public class MySQLWebService {
         return SendToWebService(json);
     }
 
+    public JSONObject GetParents(Boolean findStudentsIDs) {
+        JSONObject json = new JSONObject();
+
+        JSONObject jsonParams = new JSONObject();
+        jsonParams.put(WebServiceConstants.GetParents.Parameters.FIND_STUDENTS_IDS, findStudentsIDs);
+
+        json.put(WebServiceConstants.PARAMS, jsonParams);
+
+        json.put(WebServiceConstants.FUNCTION_NAME, WebServiceConstants.GetParents.FUNCTION_NAME);
+
+        return SendToWebService(json);
+    }
+
     public JSONObject SaveParent(Parent parent) {
         JSONObject json = new JSONObject();
 
@@ -489,6 +504,30 @@ public class MySQLWebService {
         JSONObject json = new JSONObject();
 
         json.put(WebServiceConstants.FUNCTION_NAME, WebServiceConstants.GetAdmins.FUNCTION_NAME);
+
+        return SendToWebService(json);
+    }
+
+    public JSONObject SaveParentChildren(Parent parent, Map<Student, RelationType> studentRelationTypeMap) {
+        JSONObject json = new JSONObject();
+
+        json.put(WebServiceConstants.FUNCTION_NAME, WebServiceConstants.SaveParentChildren.FUNCTION_NAME);
+
+        JSONObject jsonParams = new JSONObject();
+
+        jsonParams.put(WebServiceConstants.SaveParentChildren.Parameters.PARENT_ID, parent.getId());
+
+        JSONArray studentsListArray = new JSONArray();
+        for (Map.Entry<Student, RelationType> entry : studentRelationTypeMap.entrySet()) {
+            JSONObject studentRelationTypeObject = new JSONObject();
+            studentRelationTypeObject.put(WebServiceConstants.SaveParentChildren.Parameters.StudentRelationType.STUDENT_ID, entry.getKey().getId());
+            studentRelationTypeObject.put(WebServiceConstants.SaveParentChildren.Parameters.StudentRelationType.RELATION_TYPE_ID, entry.getValue().getId());
+            studentsListArray.put(studentRelationTypeObject);
+        }
+
+        jsonParams.put(WebServiceConstants.SaveParentChildren.Parameters.STUDENT_RELATION_TYPE, studentsListArray);
+
+        json.put(WebServiceConstants.PARAMS, jsonParams);
 
         return SendToWebService(json);
     }

@@ -1,5 +1,6 @@
 package com.hiero.elektronicznydziennik.Administration.Dictionaries;
 
+import com.hiero.elektronicznydziennik.Helpers.Classes.RelationType;
 import com.hiero.elektronicznydziennik.Helpers.Functions;
 import com.hiero.elektronicznydziennik.WebService.MySQLWebService;
 import com.hiero.elektronicznydziennik.WebService.WebServiceConstants;
@@ -147,36 +148,6 @@ public class RelationTypes extends Dictionary {
             } finally {
                 saveRelationTypeTask = null;
             }
-        }
-    }
-
-    public class RelationType {
-        private final SimpleIntegerProperty mId = new SimpleIntegerProperty();
-        private final SimpleStringProperty mName = new SimpleStringProperty();
-
-        RelationType(Integer id) {
-            mId.set(id);
-        }
-
-        public int getId() {
-            return mId.get();
-        }
-
-        public SimpleIntegerProperty idProperty() {
-            return mId;
-        }
-
-        public String getName() {
-            return mName.get();
-        }
-
-        public SimpleStringProperty nameProperty() {
-            return mName;
-        }
-
-        public RelationType setName(String name) {
-            this.mName.set(name);
-            return this;
         }
     }
 }

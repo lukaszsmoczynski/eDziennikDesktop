@@ -1,8 +1,10 @@
 package com.hiero.elektronicznydziennik.Helpers.Classes.Users;
 
 import javafx.beans.property.SimpleStringProperty;
+import javafx.util.Pair;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Parent extends User {
     private final SimpleStringProperty mCountry = new SimpleStringProperty();
@@ -15,6 +17,7 @@ public class Parent extends User {
     private final SimpleStringProperty mEMail = new SimpleStringProperty();
     private ArrayList<String> mParentPhones;
     private final SimpleStringProperty mPhones = new SimpleStringProperty();
+    private List<Pair<Integer, Integer>> mStudentsRelationsList;
 
     public Parent(Integer pId) {
         super(pId);
@@ -174,6 +177,15 @@ public class Parent extends User {
 
     public Parent setEMail(String eMail) {
         this.mEMail.set(eMail);
+        return this;
+    }
+
+    public List<Pair<Integer, Integer>> getStudentsRelationsList() {
+        return mStudentsRelationsList;
+    }
+
+    public Parent setStudentsRelationsList(List<Pair<Integer, Integer>> studentsRelationsList) {
+        mStudentsRelationsList = studentsRelationsList;
         return this;
     }
 }

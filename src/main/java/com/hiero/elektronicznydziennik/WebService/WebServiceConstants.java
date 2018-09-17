@@ -48,7 +48,7 @@ public class WebServiceConstants {
 
         public class Result {
             public static final String RESULT = "RESULT";
-            public static final String CHILDREN = "CHILDREN";
+            public static final String CHILDREN = "STUDENT_RELATION_TYPE";
 
             public class Children {
                 public static final String CHILDREN_ID = "CHILDREN_ID";
@@ -544,6 +544,7 @@ public class WebServiceConstants {
         public static final String FUNCTION_NAME = "GetParents";
 
         public class Parameters {
+            public static final String FIND_STUDENTS_IDS = "FIND_STUDENTS_IDS";
         }
 
         public class Result {
@@ -564,6 +565,12 @@ public class WebServiceConstants {
                 public static final String POSTAL_CODE = "POSTAL_CODE";
                 public static final String E_MAIL = "E_MAIL";
                 public static final String PHONES = "PHONES";
+                public static final String STUDENTS_RELATIONS = "STUDENTS_RELATIONS";
+
+                public class StudentsRelations {
+                    public static final String STUDENT_ID = "STUDENT_ID";
+                    public static final String RELATION_TYPE_ID = "RELATION_TYPE_ID";
+                }
             }
         }
     }
@@ -605,6 +612,24 @@ public class WebServiceConstants {
                 public static final String NAME = "NAME";
                 public static final String SURNAME = "SURNAME";
             }
+        }
+    }
+
+    public class SaveParentChildren {
+        public static final String FUNCTION_NAME = "SaveParentChildren";
+
+        public class Parameters {
+            public static final String PARENT_ID = "PARENT_ID";
+            public static final String STUDENT_RELATION_TYPE = "STUDENT_RELATION_TYPE";
+
+            public class StudentRelationType {
+                public static final String STUDENT_ID = "STUDENT_ID";
+                public static final String RELATION_TYPE_ID = "RELATION_TYPE_ID";
+            }
+        }
+
+        public class Result {
+            public static final String RESULT = "RESULT";
         }
     }
 }
